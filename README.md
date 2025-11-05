@@ -14,7 +14,8 @@ Desarrollo de un pipeline automatizado de datos meteorológicos que extrae infor
   <img src="./images/Captura_OK.JPG" alt="6" width="1000"/>
 </p>
 <p>5. Abrimos una nueva terminal e introducimos el comando <code>docker-compose exec db psql -U db_user -d db</code>.
-<p>6. Una vez dentro de la BD, comprobamos si la información se está guardando mediante el comando <code>select * from dev.raw_weather_data;</code> </p>
+<p>6. Entramos a la base de datos mediante el comando <code>\c db</code>.</p>
+<p>7. Comprobamos que la información se está almacenando correctamente mediante el comando <code>select * from dev.raw_weather_data;</code>.</p>
 <p align="center">
   <img src="./images/Captura_BD.JPG" alt="6" width="1000"/>
 </p>
